@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2C46D512F34A5260033B536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C46D462F34A5260033B536 /* Assets.xcassets */; };
+		F2C46D532F34A5260033B536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C46D4A2F34A5260033B536 /* LaunchScreen.storyboard */; };
+		F2C46D552F34A5260033B536 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C46D452F34A5260033B536 /* AppDelegate.swift */; };
+		F2C46D562F34A5260033B536 /* checklist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2C46D472F34A5260033B536 /* checklist.xcdatamodeld */; };
+		F2C46D5A2F34A5260033B536 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C46D5B2F34A5260033B536 /* Checklist.swift */; };
+		F2C46D5C2F34A5260033B536 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C46D5D2F34A5260033B536 /* AppTheme.swift */; };
+		F2C46D5E2F34A5260033B536 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C46D5F2F34A5260033B536 /* ThemeManager.swift */; };
+		F2C46D602F34A5260033B536 /* ChecklistTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C46D612F34A5260033B536 /* ChecklistTemplates.swift */; };
+		F2C46D622F34A5260033B536 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C46D632F34A5260033B536 /* CustomTabBarView.swift */; };
+		F2C46D642F34A5260033B536 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C46D652F34A5260033B536 /* RootViewController.swift */; };
+		F2C46D662F34A5260033B536 /* MyListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C46D672F34A5260033B536 /* MyListsViewController.swift */; };
+		F2C46D682F34A5260033B536 /* TemplatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C46D692F34A5260033B536 /* TemplatesViewController.swift */; };
+		F2C46D6A2F34A5260033B536 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C46D6B2F34A5260033B536 /* SettingsViewController.swift */; };
+		F2C46D712F34A5260033B536 /* ChecklistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C46D722F34A5260033B536 /* ChecklistDetailViewController.swift */; };
+		F2C46D752F34A5260033B536 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C46D762F34A5260033B536 /* UIColor+Hex.swift */; };
+		F2C46D772F34A5260033B536 /* IconPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C46D782F34A5260033B536 /* IconPickerViewController.swift */; };
+		F2C46D792F34A5260033B536 /* ChecklistArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C46D7A2F34A5260033B536 /* ChecklistArchive.swift */; };
+		F2C46D7B2F34A5260033B536 /* ArchiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C46D7C2F34A5260033B536 /* ArchiveViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2C46D2A2F34A5190033B536 /* daily-list-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "daily-list-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C46D452F34A5260033B536 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2C46D462F34A5260033B536 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2C46D482F34A5260033B536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2C46D492F34A5260033B536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2C46D502F34A5260033B536 /* checklist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = checklist.xcdatamodel; sourceTree = "<group>"; };
+		F2C46D5B2F34A5260033B536 /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
+		F2C46D5D2F34A5260033B536 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		F2C46D5F2F34A5260033B536 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		F2C46D612F34A5260033B536 /* ChecklistTemplates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistTemplates.swift; sourceTree = "<group>"; };
+		F2C46D632F34A5260033B536 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		F2C46D652F34A5260033B536 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		F2C46D672F34A5260033B536 /* MyListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListsViewController.swift; sourceTree = "<group>"; };
+		F2C46D692F34A5260033B536 /* TemplatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatesViewController.swift; sourceTree = "<group>"; };
+		F2C46D6B2F34A5260033B536 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F2C46D722F34A5260033B536 /* ChecklistDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistDetailViewController.swift; sourceTree = "<group>"; };
+		F2C46D762F34A5260033B536 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		F2C46D782F34A5260033B536 /* IconPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconPickerViewController.swift; sourceTree = "<group>"; };
+		F2C46D7A2F34A5260033B536 /* ChecklistArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistArchive.swift; sourceTree = "<group>"; };
+		F2C46D7C2F34A5260033B536 /* ArchiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2C46D272F34A5190033B536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2C46D212F34A5190033B536 = {
+			isa = PBXGroup;
+			children = (
+				F2C46D4F2F34A5260033B536 /* daily-list-app */,
+				F2C46D2B2F34A5190033B536 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2C46D2B2F34A5190033B536 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2C46D2A2F34A5190033B536 /* daily-list-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2C46D4F2F34A5260033B536 /* daily-list-app */ = {
+			isa = PBXGroup;
+			children = (
+				F2C46D802F34A5260033B536 /* App */,
+				F2C46D812F34A5260033B536 /* Screens */,
+				F2C46D872F34A5260033B536 /* Components */,
+				F2C46D6C2F34A5260033B536 /* Models */,
+				F2C46D882F34A5260033B536 /* Storage */,
+				F2C46D6D2F34A5260033B536 /* Theme */,
+				F2C46D6E2F34A5260033B536 /* Templates */,
+				F2C46D462F34A5260033B536 /* Assets.xcassets */,
+				F2C46D472F34A5260033B536 /* checklist.xcdatamodeld */,
+				F2C46D482F34A5260033B536 /* Info.plist */,
+				F2C46D4A2F34A5260033B536 /* LaunchScreen.storyboard */,
+			);
+			path = "daily-list-app";
+			sourceTree = "<group>";
+		};
+		F2C46D6C2F34A5260033B536 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F2C46D5B2F34A5260033B536 /* Checklist.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F2C46D6D2F34A5260033B536 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				F2C46D5D2F34A5260033B536 /* AppTheme.swift */,
+				F2C46D5F2F34A5260033B536 /* ThemeManager.swift */,
+				F2C46D762F34A5260033B536 /* UIColor+Hex.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		F2C46D6E2F34A5260033B536 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				F2C46D612F34A5260033B536 /* ChecklistTemplates.swift */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		F2C46D6F2F34A5260033B536 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F2C46D632F34A5260033B536 /* CustomTabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		F2C46D802F34A5260033B536 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F2C46D452F34A5260033B536 /* AppDelegate.swift */,
+				F2C46D652F34A5260033B536 /* RootViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F2C46D812F34A5260033B536 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F2C46D822F34A5260033B536 /* MyLists */,
+				F2C46D832F34A5260033B536 /* ChecklistDetail */,
+				F2C46D842F34A5260033B536 /* Templates */,
+				F2C46D852F34A5260033B536 /* Settings */,
+				F2C46D862F34A5260033B536 /* Archive */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F2C46D822F34A5260033B536 /* MyLists */ = {
+			isa = PBXGroup;
+			children = (
+				F2C46D672F34A5260033B536 /* MyListsViewController.swift */,
+			);
+			path = MyLists;
+			sourceTree = "<group>";
+		};
+		F2C46D832F34A5260033B536 /* ChecklistDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F2C46D722F34A5260033B536 /* ChecklistDetailViewController.swift */,
+			);
+			path = ChecklistDetail;
+			sourceTree = "<group>";
+		};
+		F2C46D842F34A5260033B536 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				F2C46D692F34A5260033B536 /* TemplatesViewController.swift */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		F2C46D852F34A5260033B536 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F2C46D6B2F34A5260033B536 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F2C46D862F34A5260033B536 /* Archive */ = {
+			isa = PBXGroup;
+			children = (
+				F2C46D7C2F34A5260033B536 /* ArchiveViewController.swift */,
+			);
+			path = Archive;
+			sourceTree = "<group>";
+		};
+		F2C46D872F34A5260033B536 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F2C46D782F34A5260033B536 /* IconPickerViewController.swift */,
+				F2C46D6F2F34A5260033B536 /* TabBar */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F2C46D882F34A5260033B536 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				F2C46D7A2F34A5260033B536 /* ChecklistArchive.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2C46D292F34A5190033B536 /* daily-list-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C46D402F34A51A0033B536 /* Build configuration list for PBXNativeTarget "daily-list-app" */;
+			buildPhases = (
+				F2C46D262F34A5190033B536 /* Sources */,
+				F2C46D272F34A5190033B536 /* Frameworks */,
+				F2C46D282F34A5190033B536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "daily-list-app";
+			packageProductDependencies = (
+			);
+			productName = checklist;
+			productReference = F2C46D2A2F34A5190033B536 /* daily-list-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2C46D222F34A5190033B536 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					F2C46D292F34A5190033B536 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = F2C46D252F34A5190033B536 /* Build configuration list for PBXProject "daily-list-app" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2C46D212F34A5190033B536;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F2C46D2B2F34A5190033B536 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2C46D292F34A5190033B536 /* daily-list-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2C46D282F34A5190033B536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C46D512F34A5260033B536 /* Assets.xcassets in Resources */,
+				F2C46D532F34A5260033B536 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2C46D262F34A5190033B536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C46D552F34A5260033B536 /* AppDelegate.swift in Sources */,
+				F2C46D562F34A5260033B536 /* checklist.xcdatamodeld in Sources */,
+				F2C46D5A2F34A5260033B536 /* Checklist.swift in Sources */,
+				F2C46D5C2F34A5260033B536 /* AppTheme.swift in Sources */,
+				F2C46D5E2F34A5260033B536 /* ThemeManager.swift in Sources */,
+				F2C46D602F34A5260033B536 /* ChecklistTemplates.swift in Sources */,
+				F2C46D622F34A5260033B536 /* CustomTabBarView.swift in Sources */,
+				F2C46D642F34A5260033B536 /* RootViewController.swift in Sources */,
+				F2C46D662F34A5260033B536 /* MyListsViewController.swift in Sources */,
+				F2C46D682F34A5260033B536 /* TemplatesViewController.swift in Sources */,
+				F2C46D6A2F34A5260033B536 /* SettingsViewController.swift in Sources */,
+				F2C46D712F34A5260033B536 /* ChecklistDetailViewController.swift in Sources */,
+				F2C46D752F34A5260033B536 /* UIColor+Hex.swift in Sources */,
+				F2C46D772F34A5260033B536 /* IconPickerViewController.swift in Sources */,
+				F2C46D792F34A5260033B536 /* ChecklistArchive.swift in Sources */,
+				F2C46D7B2F34A5260033B536 /* ArchiveViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2C46D4A2F34A5260033B536 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2C46D492F34A5260033B536 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2C46D412F34A51A0033B536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = JZAHSST456;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "daily-list-app/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Daily List";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dailylists;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = daily;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2C46D422F34A51A0033B536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = JZAHSST456;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "daily-list-app/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Daily List";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dailylists;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = daily;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2C46D432F34A51A0033B536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2C46D442F34A51A0033B536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2C46D252F34A5190033B536 /* Build configuration list for PBXProject "daily-list-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C46D432F34A51A0033B536 /* Debug */,
+				F2C46D442F34A51A0033B536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2C46D402F34A51A0033B536 /* Build configuration list for PBXNativeTarget "daily-list-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C46D412F34A51A0033B536 /* Debug */,
+				F2C46D422F34A51A0033B536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2C46D472F34A5260033B536 /* checklist.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2C46D502F34A5260033B536 /* checklist.xcdatamodel */,
+			);
+			currentVersion = F2C46D502F34A5260033B536 /* checklist.xcdatamodel */;
+			path = checklist.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F2C46D222F34A5190033B536 /* Project object */;
+}
